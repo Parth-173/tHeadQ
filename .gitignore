@@ -1,0 +1,94 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ================================
+# Virtual Environment
+# ================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+# Django
+# ================================
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Django static/media files
+staticfiles/
+media/
+
+# ================================
+# Environment Variables / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# IDE / Editors
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# OS Generated Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Python Packaging
+# ================================
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ================================
+# Testing / Coverage
+# ================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ================================
+# Type Checking
+# ================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ================================
+# Ruff
+# ================================
+.ruff_cache/
+
+# ================================
+# Temporary Files
+# ================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
